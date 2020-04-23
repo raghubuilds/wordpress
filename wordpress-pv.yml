@@ -5,7 +5,8 @@ metadata:
   labels:
     app: wordpress
 spec:
-  capacity: 10Gi
+  capacity: 
+    storage: 10Gi
   accessModes:
   - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
