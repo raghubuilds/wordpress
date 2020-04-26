@@ -6,9 +6,9 @@ metadata:
     app: wordpress
 spec:
   capacity: 
-    storage: 10Gi
+    storage: 2Gi
   accessModes:
   - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
   hostPath:
-    path: /tmp
+    path: /tmp/wordpress
